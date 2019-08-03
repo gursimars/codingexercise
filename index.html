@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gursimar Singh Ahluwalia - Shapes</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dataTables.bootstrap4.css" rel="stylesheet">
+
+  </head>
+
+  <style>
+    body {
+      padding-top: 50px;
+    }
+    .starter-template {
+      padding: 40px 15px;
+      text-align: center;
+    }
+    .item{
+      text-align: right;
+    }
+  </style>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Shapes</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Coding Exercise</h1>
+        <p class="lead">As per <a href="http://fieldgo.com/" target="_blank">fieldGO</a> <a href="FieldGo Exercise - Shapes.pdf" target="_blank">instructions sheet</a></p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" id="tableGrid">
+
+          <table class="table table-striped" style="width:100%" id="shapeTable">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Shape</th>
+                <th scope="col" class="item">Density</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="col-md-4" id="details">
+          <h1 id="view_Name"><span id="view_Shape" class="label label-default"></span></h1>
+          <p class="lead" id="view_Details"></p>
+        </div>
+      </div>
+
+      <footer class="text-muted">
+        <div class="container">
+          <p><a href="https://gursimar.co.nz" target="_blank">Gursimar Singh Ahluwalia</a></p>
+          <p>0225601163 | <a href="mailto:gursimar@xtra.co.nz">gursimar@xtra.co.nz</a> </p>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
